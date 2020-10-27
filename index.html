@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Project</title>
+    <style>
+        .container {
+            width: 100%;
+            padding-top: 15%;
+        }
+
+        input[type=text] {
+            width: 40%;
+            padding: 10px 45px;
+            margin: 10px;
+            display: block;
+            border: 1px solid grey;
+            box-sizing: border-box;
+            border-radius: 40px;
+            outline: 0 solid transparent;
+
+        }
+
+        .search {
+            position: relative;
+        }
+
+        .search i {
+            position: absolute;
+            top: 20px;
+            color: grey;
+        }
+
+        button {
+            opacity: 70%;
+        }
+        .button {
+            text-decoration: none;;
+        }
+        ul {
+            list-style-type: none;
+            overflow: hidden;
+        }
+        li {
+            float: right;
+            padding: 10px;
+
+        }
+
+        li a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: grey;
+        }
+     
+
+        footer {
+            position: absolute;
+            bottom: 0;
+            background-color: #e7f7f3;
+            display: table-row;
+            width: 100%;
+            color: #696969;
+            
+        }
+        
+        .left {
+            float: left;
+        }
+        .right {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="#"><span class="icon user"></span></a></li>
+            <li><a href="#"><span class="icon grid"></span></a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#">Gmail</a></li>
+        </ul>
+    </div>
+    <center>
+    <div class="container"> 
+    <div class="logo">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+    </div>
+     <div class="search">
+        <input type="text" name="search">
+    </div>
+    <div class="button">
+        <button class="button" type="button">Google Search</button>
+        <button class="button" type="button">I'm Feeling Lucky</button>
+    </div>
+</center>
+</body>
+
+<footer>
+    <label class="left" style="padding-left"></label>
+    <ul class="footer2">
+    <li class="left"><a href="#">Advertising</a></li>
+    <li class="left"><a href="#">Business</a></li>
+    <li class="left"><a href="#">How Search Works</a></li>
+    <li class="right"><a href="#">Settings</li>
+    <li class="right"><a href="#">Privacy</a></li>
+    <li class="right"><a href="#">Terms</a></li>
+    </ul>
+</footer>
+</html>
